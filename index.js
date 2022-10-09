@@ -12,3 +12,9 @@
 
 // document.querySelector("#e").addEventListener('click', () => {
 //             window.open("https://instagram.com/portolahighesports", '_blank');});
+const el = document.querySelector("#moveimg");
+
+el.addEventListener("mousemove", (e) => {
+  el.style.backgroundPositionX = -e.offsetX + "px";
+  el.style.backgroundPositionY = -e.offsetY + "px";
+});
