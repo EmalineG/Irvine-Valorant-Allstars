@@ -1,12 +1,4 @@
 
-/*=======================================================
-          
-                     G o o d L u c k 
-
-=========================================================*/
-
-
-
 body, html {
     height: 100%;
     margin:0;
@@ -20,17 +12,9 @@ body, html {
     min-height: 100%;
 }
 .parallax2 {
-    background-image: url(img/New\ sun.jpg);
-    min-height: 60%;
+    background: linear-gradient(-135deg, #e16e2b 0%, #b21f63 100%);
 }
-.parallax3 {
-    background-image: url(img/Power.png);
-    min-height: 40%;
-}
-.parallax4 {
-    background-image: url(img/Birdy.jpg);
-    min-height: 100%;
-}
+
 
 .parallax1, .parallax2, .parallax3, .parallax4 {
     position: relative;
@@ -77,10 +61,15 @@ body, html {
 
 section {
     overflow: auto;
-    padding: 50px 80px;
-    background-color: rgba(255, 252, 251, 0.6);
+    padding: 50px;
 }
 
+img {
+    width: flex;
+    height: flex;
+    min-height: fit-content;
+    min-width:fit-content;
+}
 footer{
     width: 100%;
     background-color: #323232;
@@ -121,6 +110,3 @@ footer{
 
 
   @import url('https://fonts.googleapis.com/css?family=Ubuntu'); /*IMPORTANT*/
-
-
-  /*========T H A N K  Y O U=======*/
