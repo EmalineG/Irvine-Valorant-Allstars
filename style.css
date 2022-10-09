@@ -1,0 +1,126 @@
+
+/*=======================================================
+          
+                     G o o d L u c k 
+
+=========================================================*/
+
+
+
+body, html {
+    height: 100%;
+    margin:0;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 180%;
+    color: #666;
+    text-align: center;
+}
+.parallax1 {
+    background: linear-gradient(-135deg, #e16e2b 0%, #b21f63 100%);
+    min-height: 100%;
+}
+.parallax2 {
+    background-image: url(img/New\ sun.jpg);
+    min-height: 60%;
+}
+.parallax3 {
+    background-image: url(img/Power.png);
+    min-height: 40%;
+}
+.parallax4 {
+    background-image: url(img/Birdy.jpg);
+    min-height: 100%;
+}
+
+.parallax1, .parallax2, .parallax3, .parallax4 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*Important*/
+}
+.rotate {
+    transform: rotate(180deg);
+}
+.head {
+    position: absolute;
+    color: #fff;
+    font-size: 500%;
+    top:50%;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    animation: drop 2.0s ease; /* Make things beautiful */
+    cursor: pointer;
+    font-family: 'Edosz';
+    line-height: normal;
+}
+
+.edofont {
+    font-family: 'Edosz';
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.notedo {
+    font-family: 'Futura';
+    text-transform: uppercase;
+}
+/* .head:hover{
+    color:transparent;
+} */
+
+.cursor{
+    cursor: pointer;
+}
+
+section {
+    overflow: auto;
+    padding: 50px 80px;
+    background-color: rgba(255, 252, 251, 0.6);
+}
+
+footer{
+    width: 100%;
+    background-color: #323232;
+    color: #f2f2f2;
+    height: 8vh;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+}
+
+@media (max-width:800px) {
+    .head{
+        font-size: 200%;
+    }
+   
+}
+
+@font-face {
+    font-family: 'Edosz';
+    src: url(edosz.ttf);
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url(Futura.ttc);
+}
+
+@keyframes drop {
+    0% {
+      opacity: 0;
+      transform: translateY(-80px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+
+  @import url('https://fonts.googleapis.com/css?family=Ubuntu'); /*IMPORTANT*/
+
+
+  /*========T H A N K  Y O U=======*/
