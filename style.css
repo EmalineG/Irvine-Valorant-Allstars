@@ -8,13 +8,9 @@ body, html {
     text-align: center;
 }
 .parallax1 {
-    background: linear-gradient(-135deg, #e16e2b 0%, #b21f63 100%);
+    background: url(img/swoosh.svg), (-135deg, #e16e2b 0%, #b21f63 100%);
     min-height: 100%;
 }
-.moveimg {
-    background-image: url(img/swoosh.svg);
-}
-
 
 .parallax1, .parallax2, .parallax3, .parallax4 {
     position: relative;
