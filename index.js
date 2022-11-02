@@ -19,7 +19,8 @@ el.addEventListener("mousemove", (e) => {
   el.style.backgroundPositionY = -e.offsetY + "px";
 });
 
-const apply = document.querySelector("#apply");
+document.querySelector("#apply").addEventListener('click', () => {
+    window.open("https://forms.gle/rT71c1bTeS1meUr98", '_blank');}
+);
 
-el.addEventListener("click", (e) => {
-  window.open("https://forms.gle/rT71c1bTeS1meUr98", '_tab')});
+
