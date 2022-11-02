@@ -18,3 +18,8 @@ el.addEventListener("mousemove", (e) => {
   el.style.backgroundPositionX = -e.offsetX + "px";
   el.style.backgroundPositionY = -e.offsetY + "px";
 });
+
+const apply = document.querySelector("#apply");
+
+el.addEventListener("click", (e) => {
+  window.open("https://forms.gle/rT71c1bTeS1meUr98", '_tab')});
