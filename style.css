@@ -7,22 +7,119 @@ body, html {
     color: #666;
     text-align: center;
 }
-.parallax1 {
-    background-image: url("img/swoosh.svg"), linear-gradient(-135deg, #e16e2b 0%, #b21f63 100%);
-    min-height: 100%;
-}
 
-.parallax1, .parallax2, .parallax3, .parallax4 {
+.parallax {
+    display: flex;
+    background-image: url("img/swoosh.svg"), linear-gradient(-135deg, #e16e2b 0%, #b12e6b 100%);
+    min-height: 70%;
     position: relative;
     opacity: 0.70;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /*Important*/
+    background-color: transparent;
 }
+
+.titleparallax {
+    display: flex;
+    background-image: url("img/swoosh.svg"), linear-gradient(-135deg, #e16e2b 0%, #b21f63 100%);
+    min-height: 60%;
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*Important*/
+    background-color: transparent;
+}
+
+.navparallax {
+
+    background-image: url("img/swoosh.svg"), linear-gradient(-135deg, #e16e2b 0%, #b21f63 100%);
+    min-height: 5%;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*Important*/
+    background-color: transparent;
+  
+}
+.sponsorparallax {
+    display: flex;
+    background-image: url("img/swoosh.svg"), linear-gradient(-135deg, #e16e2b 0%, #b21f63 100%);
+    min-height: 40%;
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*Important*/
+    background-color: transparent;
+}
+.applyparallax {
+    display: flex;
+    background-image: url("img/swoosh.svg"), linear-gradient(-135deg, #e16e2b 0%, #b21f63 100%);
+    min-height: 55%;
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*Important*/
+    background-color: transparent;
+}
+
+.ivc{
+    max-width: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.sponsors{
+    max-width:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-flow: row nowrap;
+    
+}
+
+.secparallax {
+
+    background-image: url("img/swoosh.svg"), linear-gradient(-180deg, #861039f6 0%, #cc1e1ea7 28%);
+    min-height: 5%;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*Important*/
+    background-color: transparent;
+    overflow: auto;
+    padding: 20px;
+}
+
+
+img {
+    width: 70%;
+    border-radius: 2%;
+}
+
+.imgwrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
 .rotate {
     transform: rotate(180deg);
 }
+
 .head {
     position: absolute;
     color: #fff;
@@ -31,56 +128,99 @@ body, html {
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 20px;
-    animation: drop 2.0s ease; /* Make things beautiful */
+    animation: drop 2.0s ease;
     cursor: pointer;
     font-family: 'Edosz';
     line-height: normal;
 }
 
+
 .edofont {
     font-family: 'Edosz';
     text-transform: uppercase;
     letter-spacing: 5px;
+    color: rgb(216, 212, 212);
 }
-
-.notedo {
-    font-family: 'Futura';
+/* .notedo {
+    font-family: 'notedo';
     text-transform: uppercase;
-}
-/* .head:hover{
-    color:transparent;
+    letter-spacing: 5px;
+    color: rgb(216, 212, 212);
 } */
 
-.cursor{
+.a, .b, .c, .d, .e, .notedo {
+    font-family: 'Futura';
+    text-transform: uppercase;
+    color: rgb(216, 212, 212);
+}
+
+.discord, .website, .highlights, .a, .b, .c, .d, .e{
     cursor: pointer;
 }
 
-section {
-    overflow: auto;
-    padding: 50px;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 1vw;
+  }
+
+li {
+    display: inline;
+    float: right;
+    display: block;
+    padding-inline: 15px;
+    padding-top: 15px;
+    color: #dddddd;
+    font-family: "FUTURA";
+  }
+ 
+
+
+header {
+    padding-top: 2vh;
 }
 
-img {
-    width: flex;
-    height: flex;
-    min-height: fit-content;
-    min-width:fit-content;
-}
-footer{
+footer {
     width: 100%;
     background-color: #323232;
-    color: #f2f2f2;
-    height: 8vh;
+    height: 2vh;
     text-align: center;
-    padding-top: 5vh;
-    padding-bottom: 1vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    display: inline;
+    float: right;
+    color: white;
 }
 
-@media (max-width:800px) {
+@media (max-width:600px) {
     .head{
-        font-size: 200%;
+        font-size: 300%;
     }
-   
+    .parallax{
+        min-height:50%;
+    }
+   .titleparallax{
+    min-height: 50%;
+   }
+   .secparallax{
+    opacity: 0.7;
+   }
+   .ivc{
+    max-width: 80%;
+   }
+   .sponsors{
+    max-width: 50%;
+   }
+   .sponsorparallax{
+    min-height: 30%;
+   }
+   .applyparallax{
+    min-height: 40%;
+   }
+   p{
+    font-size: 90%;
+   }
 }
 
 @font-face {
