@@ -35,7 +35,7 @@ body, html {
 .parallax {
     display: flex;
     background-image: url("img/swoosh.svg"), linear-gradient(-135deg, #e16e2b 0%, #b12e6b 100%);
-    min-height: 70%;
+    min-height: 80%;
     position: relative;
     opacity: 0.70;
     background-position: center;
@@ -43,6 +43,7 @@ body, html {
     background-repeat: no-repeat;
     background-attachment: fixed; /*Important*/
     background-color: transparent;
+    
 }
 
 
@@ -193,15 +194,16 @@ footer {
     color: white;
 }
 
-@media (max-width:600px) {
+@media (max-width:750px) {
     .head{
         font-size: 300%;
     }
     .parallax{
-        min-height:50%;
+        min-height:55%;
     }
    .titleparallax{
     min-height: 50%;
+
    }
    .secparallax{
     opacity: 0.7;
@@ -210,18 +212,94 @@ footer {
     max-width: 80%;
    }
    .sponsors{
-    max-width: 50%;
+    max-width: 70%;
+    margin-left: 11%;
    }
    .sponsorparallax{
     min-height: 30%;
    }
    .applyparallax{
-    min-height: 40%;
+    min-height: 60%;
    }
    p{
     font-size: 90%;
    }
+   .imgwrap{
+    max-width: 100%;
+   }
 }
+@media (max-width: 610px){
+    img{
+        min-width: 80%;
+    }
+    .sponsors{
+        max-width: 60%;
+       margin-left: 15%;
+  
+    }
+}
+@media (max-width: 560px){
+    img{
+        min-width: 90%;
+    }
+    .sponsors{
+        max-width: 55%;
+       margin-left: 18%;
+  
+    }
+}
+@media (max-width:390px){
+    .head{
+        font-size: 200%;
+    }
+    .parallax{
+        min-height: 30%;
+    }
+    .titleparallax{
+        min-height: 50%;
+    }
+    .secparallax{
+        opacity: 0.7;
+    }
+    .ivc{
+        max-width: 80%;
+    }
+    .sponsors{
+        max-width: 65%;
+       margin-left: 15%;
+  
+    }
+    .sponsorparallax{
+        min-height: 30%;
+    }
+    .applyparallax{
+        min-height: 50%;
+    }
+    p{
+        font-size: 90%;
+    }
+    .imgwrap{
+        max-width: 100%;
+    }
+    img{
+        min-width: 70%;
+    }
+   
+}
+
+@media (max-width: 367px){
+    li {
+        font-size: 60%;
+    }
+    .head{
+        font-size: 180%;
+    }
+    .sponsors{
+        max-width: 70%;
+        margin-left: 10%;
+    }
+}
+
 
 @font-face {
     font-family: 'Edosz';
