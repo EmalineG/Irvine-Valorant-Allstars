@@ -37,7 +37,7 @@ body, html {
 .navparallax {
 
     background-image: url("img/swoosh.svg"), linear-gradient(-135deg, #e16e2b 0%, #b21f63 100%);
-    min-height: 5%;
+    min-height: 7%;
     opacity: 0.70;
     background-position: center;
     background-size: cover;
