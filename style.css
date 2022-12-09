@@ -7,7 +7,31 @@ body, html {
     color: #666;
     text-align: center;
 }
+.navparallax {
 
+    background-image: url("img/swoosh.svg"), linear-gradient(-135deg, #e16e2b 0%, #b21f63 100%);
+    min-height: 7%;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*Important*/
+    background-color: transparent;
+  
+}
+
+
+.titleparallax {
+    background-image: url("img/swoosh.svg"), linear-gradient(-135deg, #e16e2b 0%, #b21f63 100%);
+    min-height: 60%;
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*Important*/
+    background-color: transparent;
+}
 .parallax {
     display: flex;
     background-image: url("img/swoosh.svg"), linear-gradient(-135deg, #e16e2b 0%, #b12e6b 100%);
@@ -21,31 +45,7 @@ body, html {
     background-color: transparent;
 }
 
-.titleparallax {
-    display: flex;
-    background-image: url("img/swoosh.svg"), linear-gradient(-135deg, #e16e2b 0%, #b21f63 100%);
-    min-height: 60%;
-    position: relative;
-    opacity: 0.70;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /*Important*/
-    background-color: transparent;
-}
 
-.navparallax {
-
-    background-image: url("img/swoosh.svg"), linear-gradient(-135deg, #e16e2b 0%, #b21f63 100%);
-    min-height: 7%;
-    opacity: 0.70;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /*Important*/
-    background-color: transparent;
-  
-}
 .sponsorparallax {
     display: flex;
     background-image: url("img/swoosh.svg"), linear-gradient(-135deg, #e16e2b 0%, #b21f63 100%);
@@ -59,9 +59,8 @@ body, html {
     background-color: transparent;
 }
 .applyparallax {
-    display: flex;
     background-image: url("img/swoosh.svg"), linear-gradient(-135deg, #e16e2b 0%, #b21f63 100%);
-    min-height: 55%;
+    min-height: 60%;
     position: relative;
     opacity: 0.70;
     background-position: center;
@@ -69,6 +68,7 @@ body, html {
     background-repeat: no-repeat;
     background-attachment: fixed; /*Important*/
     background-color: transparent;
+
 }
 
 .ivc{
@@ -124,7 +124,7 @@ img {
     position: absolute;
     color: #fff;
     font-size: 500%;
-    top:50%;
+    top:40%;
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 20px;
