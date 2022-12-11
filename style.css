@@ -105,6 +105,19 @@ body, html {
 }
 
 
+.fade-container {
+    position: relative;
+  }
+  
+  .fade-container > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
 img {
     width: 70%;
     border-radius: 2%;
@@ -213,7 +226,7 @@ footer {
    }
    .sponsors{
     max-width: 70%;
-    margin-left: 11%;
+    margin-left: 14%;
    }
    .sponsorparallax{
     min-height: 30%;
@@ -234,7 +247,7 @@ footer {
     }
     .sponsors{
         max-width: 60%;
-       margin-left: 15%;
+       margin-left: 18%;
   
     }
 }
@@ -244,7 +257,7 @@ footer {
     }
     .sponsors{
         max-width: 55%;
-       margin-left: 18%;
+       margin-left: 21%;
   
     }
 }
@@ -321,6 +334,13 @@ footer {
       transform: translateY(0px);
     }
   }
-
+  @keyframes fadeOut {
+    from {
+      opacity: 0.70;
+    }
+    to {
+      opacity: 0;
+    }
+  }
 
   @import url('https://fonts.googleapis.com/css?family=Ubuntu'); /*IMPORTANT*/
