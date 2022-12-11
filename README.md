@@ -3,6 +3,4 @@ Light Information Page for Esports Allstars, an annual esports tournament for Or
 
 New technology learned: Parallax Scrolling Effect
 
-Will be adding media between sections soon
-
 Currently hosted on: https://irvinevalorantallstars.vercel.app
