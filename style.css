@@ -35,7 +35,7 @@ body, html {
 .parallax {
     display: flex;
     background-image: url("img/swoosh.svg"), linear-gradient(-135deg, #e16e2b 0%, #b12e6b 100%);
-    min-height: 80%;
+    min-height: 90%;
     position: relative;
     opacity: 0.70;
     background-position: center;
@@ -212,7 +212,7 @@ footer {
         font-size: 300%;
     }
     .parallax{
-        min-height:55%;
+        min-height:60%;
     }
    .titleparallax{
     min-height: 50%;
@@ -245,6 +245,9 @@ footer {
     img{
         min-width: 80%;
     }
+    .parallax{
+        min-height:60%;
+    }
     .sponsors{
         max-width: 60%;
        margin-left: 18%;
@@ -259,6 +262,9 @@ footer {
         max-width: 55%;
        margin-left: 21%;
   
+    }
+    .parallax{
+        min-height:60%;
     }
 }
 @media (max-width:390px){
